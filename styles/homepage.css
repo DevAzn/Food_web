@@ -1,0 +1,104 @@
+/* Heroes section */
+.hero-section {
+    background-image: url(../images/background/fries-hero-bg.jpg);
+    padding: 100px;
+    height: 315px;
+    /* prevents image floatiing */
+    background-attachment: fixed;
+    /* takes image to be centered */
+    background-position: center;
+    /* to be shown one time; good for large screen */
+    background-repeat: no-repeat;
+    /* takes the image and crops it */
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    font-family: 'Roboto Slab', serif;
+    background-color: #11122b;
+    color: lavenderblush;
+    width: 326px;
+    border-radius: 12px;
+    padding: 2px 20px;
+    margin-bottom: 13px;
+    display: grid;
+
+}
+
+.hero-section > .bottom-heading {
+    font-family: 'Roboto Slab', serif;
+    background-color: #cea135;
+    color: #11122b;
+    width: 179px;
+    border-radius: 12px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    padding: 2px 20px;
+    
+}
+
+/* features section styles */
+
+.feature-section {
+    height: 400px;
+    background-image: url(../images/background/fries-multiply-bg.jpg);
+    background-color: #cea135;
+    border-top: thick groove rgb(49, 82, 49);
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    /* rgba allows the pecentage of the color you want to use */
+    /* inset...0px(deals with lefthand side shadow; ((Horizontal length))
+                -26px(deals with the top; shower of shadows); ((Vertical length))
+                79px(deal with the blurring border; ((blur radius))
+                 -8px(righthand side shadow, looks more like a pinch effect;
+                    shadow starts to emcompass the whole section)
+                        Spread radius */
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58); 
+}
+
+.feature-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-section > .columns-wrapper > .column {
+    padding: 22px;
+    margin: 43px;
+    text-align: center;
+    /* transparent border is way to reserve pixels on the screen;
+     removes jumps on a screen */
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.feature-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #11122b;
+}
+
+/* use of nth child */
+.feature-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.feature-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 800;
+    height: 50px;
+    transition: 1s;
+}
+
+.feature-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.feature-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 1.8px;
+}
+

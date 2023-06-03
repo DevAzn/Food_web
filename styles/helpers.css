@@ -1,0 +1,37 @@
+/* ++++++++++++++++++ */
+     /* HELPERS */   
+
+     /* give us marigin anytime we need it */
+
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}   
+
+/* .anchor-link h1::before {
+   this takes a string
+    content: "I am before ~ "
+} */
+
+.anchor-link h1::after {
+    /* display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased; */
+/* say the company name; version number; and service tier */
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: " \f38b";
+}

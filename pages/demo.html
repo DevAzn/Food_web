@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Ubuntu font -->
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- Roboto Slab font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> 
+    <!-- toolkit from font awesome -->
+    <script src="https://kit.fontawesome.com/c5570d5a51.js" crossorigin="anonymous"></script>
+    <!-- content to conform to UTF-8 encoding -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!-- <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+/> -->
+
+    <!-- external style sheets -->
+    <link rel="stylesheet" href="styles/common.css ">
+    <link rel="stylesheet" href="styles/navi.css ">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <!-- <style>
+        /* this makes the css more scalable */
+        h1 {
+            color:rgb(215, 238, 238);
+            text-decoration: underline;
+        }
+    </style> -->
+
+    <!-- this is for more specific decorating  -->
+    <!-- <h1 style="color: burlywood;">Hello World! John Here...</h1> -->
+</head>
+<body>
+    <!-- Flex Container  -->
+    <div class="navigation-wrapper">
+
+        <div class="left-column">
+            <div class="icon">
+                <i class="fas fa-phone-volume"></i>
+            </div>
+            <div class="contact-hours-wrapper">
+                <div class="phone">
+                    777-777-7777
+                </div>
+                <div class="hours">
+                    TWILIGHT - SUNRISE
+                </div>
+            </div>
+        </div>
+
+        <div class="center-column">
+            <div class="banner-image">
+                <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
+            </div>
+            <div class="links-wrapper">
+                    <!-- servers going in a directory; the first they look for is index.html-->
+                    <!-- <a href="index.html">Home</a> -->
+                <div class="nav-link">
+                    <a href="menu.html">Menu</a>
+                </div>
+                <div class="nav-link">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-link">
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="nav-link">
+                    <a href="pages/demo.html">Demo</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-column">
+             <div class="address-wrapper">
+                 <!-- used <br> to break line kinda like endl; -->
+                <a href="contact.html">
+                    All Year Street<br>
+                    SpaceMansion, HV, 77777
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="contact.html"></a>
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of navifation bar -->
+
+    <div class="hero-section">
+        <div class="top-heading">
+            <h2>
+                Deam STYLE Fries baked in HTML and covered in CSS
+            </h2>
+        </div>
+        
+        <div class="bottom-heading">
+            <h3>
+                Fule for coding and forming dad bods... d(^-^ )
+            </h3>
+        </div>
+    </div>
+    <!-- end of hero section -->
+
+    <div class="feature-section">
+        <div class="columns-wrapper">
+            <div class="column">
+                <i class="fas fa-horse"></i>
+                <p>
+                    We Deliver!
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column">
+                <i class="fas fa-laptop-code"></i>
+                <p>
+                    You can code here!
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column">
+                <i class="fas fa-globe-americas"></i>
+                <p>
+                    Fries from all over the world!
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google maps API -->
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833401.242675208!2d71.1033908182009!3d2.988364046227593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x24b599bfaafb7bbd%3A0x414509e181956289!2sMaldives!5e0!3m2!1sen!2sus!4v1600726117338!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-section">
+
+        <div class="logo-footer">
+            <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
+        </div>
+
+        <div class="footer-phone-hours-wrapper">
+            <!-- span if you put it on the same line with oter spans, provides different line breaks -->
+            <span class="phone">
+                777-777-7777
+            </span>
+            <span class="hours">
+                TWILIGHT - SUNRISE
+            </span>
+        </div>
+
+        <div class="links-wrapper">
+            <!-- servers going in a directory; the first they look for is index.html-->
+            <!-- <a href="index.html">Home</a> -->
+            <div class="nav-link">
+                <a href="menu.html">Menu</a>
+            </div>
+            <div class="nav-link">
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-link">
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-link">
+                <a href="pages/demo.html">Demo</a>
+            </div>
+        </div>
+
+        <div class="social-media-icons-wrapper">      
+                <a href="#">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+        </div>
+
+            <!-- if needed...look up HTML entity -->
+        <div class="copyrights-wrapper">
+            <p>
+                ©2020 Devcamp® | Covid-19 | All rights reserved
+                &#127137
+            </p>
+        </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html> 
+<!-- pratice zone -->
+<!-- get to square grid building...you can do it! -->
+

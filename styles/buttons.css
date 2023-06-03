@@ -1,0 +1,21 @@
+.button {
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.2em;
+    padding: 10px 25px;
+    /* good to add a border always, bc some browsers will default to their own
+    it be ugly */
+    border: 1px solid #cea135;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.35s;
+}
+
+.button:active {
+    box-shadow: 3px 6px 30px rgba(0, 0, 0, .45);
+}
+
+.center-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
